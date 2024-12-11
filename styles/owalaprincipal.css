@@ -1,0 +1,225 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+
+	height: 280px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-image: url("../imagenes/banner/banner.jpg");
+ 	background-size: cover;
+	background-size: cover;
+	display: flex;
+	justify-content: center ;
+	background-position:center;
+	
+}
+body{
+	font-family: 'roboto';
+}
+.contenedor{
+	padding: 30px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	line-height: 150%;
+	margin-left: 190px;
+	margin-right: 190px;
+	
+
+}
+.contenedor-p{
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	line-height: 150%;
+	margin-left: 190px;
+	margin-right: 190px;
+	
+
+}
+.galeria-portp{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+
+.imagen-portp{
+	width: 30%;
+	height: 30%;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+
+}
+
+.imagen-portp>img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+/*shop best sellers*/
+.contenedor h2{
+	font-size: 40px;
+	margin-left: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	color: #4b4a4b;	
+
+}
+main .contenedor-productos{
+	padding: 30px 0 30px 0;
+	background: #f9e8f3;
+    padding-bottom: 30px;
+
+}
+/*PORTAFOLIO*/
+
+
+.galeria-port{
+	display: inline-flex;
+	justify-content: space-evenly;
+	flex-wrap:nowrap;
+}
+
+
+.imagen-port>img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.imagen-port:hover{
+	
+	margin-bottom: 0px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	filter: opacity(.5);
+
+}
+
+/*tamaño de la primer imagen*/
+.imagen-port{
+	padding: 20px 60px 20px 0px ;
+	width: 130%;
+	height: 130%;
+	object-fit: cover;
+	display: flex;
+	margin-bottom: 10px;	
+}
+
+
+
+/*water bottles desing...*/
+.about-bottle h3{
+	font-size: 30px;
+	margin-left: 0px;
+	padding: 0px 100px 30px 100px;
+	text-align: center;
+	color: #4b4a4b;
+	line-height: 106%;
+	margin-left: 150px;
+	margin-right: 150px;
+
+}
+h6{
+	font-size: 40px;
+	margin-left: 0px;
+	
+	text-align: center;
+	color: #4b4a4b;
+	line-height: 26%;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.portafolio-p h6{
+	font-size: 30px;
+	padding: 40px 120px 30px 120px;
+}
+.about-bottle p{
+	font-size: 20px;
+	padding: 0px 110px 30px 110px;
+	text-align: justify;
+	color: #4b4a4b;
+	font-weight: 45;
+}
+footer{
+    background: #c8c8c8;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+	display: flex;
+	width: 90%;/*separacion entre phone number y mail*/
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px #fff;
+}
+.content-foo{
+    text-align: center;
+}
+/*phone number y mail*/
+.content-foo h4{
+	font-size: 18px;
+    color: #4b4a4b;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+/*datos del numero y correo*/
+.content-foo p{
+    color: #4b4a4b;
+    text-align: center;
+    font-weight: 335;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #a9a9a9;
+}
+.contenedor-footer p{
+    font-size: 20px;
+}
+
+.pieimg img{
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+@media screen and (max-width:500px){
+
+.contenedor-footer{
+    flex-direction: column;
+    border: none;
+}
+
+.content-foo{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.content-foo h5{
+	border: none;
+}
+.content-foo p{
+	color: #fff;
+	border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+}

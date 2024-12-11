@@ -1,0 +1,37 @@
+body{
+	 font-family: "Barlow", sans-serif;
+	font-size: 20px;
+	color: #4b4a4b;
+}
+header{
+
+  	font-family: "Barlow", sans-serif;
+  	font-size: 20px;
+  	color: #4b4a4b;
+  	text-align: center;
+}
+h2{
+	font-family: "Barlow", sans-serif;
+	font-size: 34px;
+	color: #4b4a4b;
+	text-align: center;
+}
+main{
+	padding-bottom: 500px;
+}
+p{
+	font-family: "Barlow", sans-serif;
+	font-size: 20px;
+	color: #4b4a4b;
+	line-height: 160%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 900px
+}
+h1{
+	font-family: "Barlow", sans-serif;
+	font-size: 30px;
+	color: #277c97;
+	text-align: center;
+}
